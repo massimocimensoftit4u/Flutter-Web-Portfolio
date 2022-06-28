@@ -9,36 +9,36 @@ import 'package:responsive_framework/responsive_framework.dart';
 final List<FooterItem> footerItems = [
   FooterItem(
       iconData: Icons.location_on,
-      title: "ADDRESS",
-      text1: "Mumbai, Maharashtra",
-      text2: "India",
+      title: "Adresse",
+      text1: "Robert-Bosch-Straße 5c",
+      text2: "63477 Maintal",
       onTap: () {
         Utilty.openMyLocation();
       }),
   FooterItem(
       iconData: Icons.phone,
-      title: "PHONE",
-      text1: "+91 9167877725",
-      text2: "",
+      title: "Kotakt",
+      text1: "mobil: +49 0176-21847766",
+      text2: "fon:   +49 06181-9091826",
       onTap: () {
         Utilty.openMyPhoneNo();
       }),
   FooterItem(
       iconData: Icons.mail,
-      title: "EMAIL",
-      text1: "agnelselvan007@gmail.com",
+      title: "EMail",
+      text1: "info@chtoura-city.de",
       text2: "",
       onTap: () {
         Utilty.openMail();
       }),
-  FooterItem(
+  /* FooterItem(
       iconData: Icons.sms,
       title: "WHATSAPP",
       text1: "+91 9167877725",
       text2: "",
       onTap: () {
         Utilty.openWhatsapp();
-      })
+      }) */
 ];
 
 class Footer extends StatelessWidget {
@@ -148,7 +148,7 @@ Widget _buildUi(double width, BuildContext context) {
                   Padding(
                     padding: EdgeInsets.only(bottom: 8.0),
                     child: Text(
-                      "Developed in 💛 with Flutter",
+                      "Entwickelt mit 💛 von softIT4u",
                       style: TextStyle(
                         color: kCaptionColor,
                       ),

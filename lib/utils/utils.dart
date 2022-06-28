@@ -7,10 +7,10 @@ class Utilty {
     }
   }
 
-  static Future<void> openMail() => openUrl("mailto:agnelselvan007@gmail.com");
+  static Future<void> openMail() => openUrl("mailto:info@chtoura-city.de");
 
-  static Future<void> openMyLocation() =>
-      openUrl("https://goo.gl/maps/YDFt3w2xWAu3nwD17");
-  static Future<void> openMyPhoneNo() => openUrl("tel:+91-9167877725");
-  static Future<void> openWhatsapp() => openUrl("https://wa.me/9167877725");
+  static Future<void> openMyLocation() => openUrl(
+      "https://www.google.com/maps/place/Chtoura+City+GmbH/@50.1316334,8.8608713,17z/data=!3m1!4b1!4m5!3m4!1s0x47bd11e905683c31:0xf19cd2158dd772ba!8m2!3d50.1316322!4d8.8631183");
+  static Future<void> openMyPhoneNo() => openUrl("tel:+4917621847766");
+  static Future<void> openWhatsapp() => openUrl("https://wa.me/0");
 }

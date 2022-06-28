@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
               ? MyThemes.darkTheme
               : MyThemes.lightTheme,
           child: MaterialApp(
-            title: "Agnel Selvan",
+            title: "Chtoura City GmbH",
             debugShowCheckedModeBanner: false,
             themeMode: ref.watch(themeProvider).themeMode,
             theme: MyThemes.lightTheme,
